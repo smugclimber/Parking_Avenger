@@ -4,10 +4,14 @@ body{
 
 h1{
 text-align: center;
+color: orange;
+background-color: grey;
 }
 
 h2{
-
+  text-align: center;
+  color: orange;
+  background-color: grey;
 }
 
 .row{
@@ -15,7 +19,7 @@ h2{
 }
 
 .jumbotron jumbotron-fluid{
-
+color: orange;
 }
 
 .container-fluid{
@@ -24,4 +28,10 @@ h2{
 
 .fixed-bottom{
   text-align: center;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 18;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
 }
