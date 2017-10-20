@@ -5,7 +5,6 @@ body{
 h1{
 text-align: center;
 color: orange;
-background-color: grey;
 }
 
 h2{
@@ -17,9 +16,11 @@ h2{
 .row{
 
 }
+.footer{
+  padding: 40px;
+}
 
 .jumbotron jumbotron-fluid{
-color: orange;
 }
 
 .container-fluid{
@@ -32,6 +33,24 @@ color: orange;
   font-weight: bold;
   font-size: 18;
   margin-top: 20px;
-  margin-bottom: 20px;
-  
+  margin-bottom: 40px;
+}
+
+#navbarNav{
+color: orange;
+position: fixed;
+right: 10px;
+}
+
+.nav-item{
+  color: orange;
+}
+
+a.nav-link,
+.navbar-nav, .navbar-light{
+    color: orange;
+}
+.custom-link {
+    color: orange;
+    padding: 10px;
 }
